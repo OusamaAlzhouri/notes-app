@@ -1,6 +1,6 @@
 # Notes App
 
-A simple Notes App built with HTML, CSS, and JavaScript. The app allows users to add, display, and delete notes. Users can click a floating "+" button to create a new note and submit it via a form.
+A simple Notes App built with HTML, CSS, and JavaScript. The app allows users to add, display, and delete notes.
 
 ## Features
 - **Display notes**: All added notes are displayed in a list, with the most recent notes shown first.
