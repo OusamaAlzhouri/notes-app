@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="./assets/js/app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Notes App</h2>
+        <form id="noteForm">
+            <input type="text" id="title" placeholder="Title" required><br>
+            <textarea id="content" placeholder="Content" required></textarea><br>
+            <button type="submit">Add Note</button>
+            <p class="error" id="error"></p>
+        </form>
+        <h3>Total Notes: <span id="count">0</span></h3>
+        <div id="notesList"></div>
+    </div>
+</body>
+</html>
